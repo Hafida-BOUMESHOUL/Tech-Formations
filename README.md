@@ -77,6 +77,10 @@ Firebase est un ensemble de services d'hébergement pour n'importe quel type d'a
 
 ![image](https://user-images.githubusercontent.com/81646153/165181861-d83eb650-692f-47b0-a1a0-d45a0cfce82a.png)
 
+	Les informations sur les formations choisies oar un user sont enregistrées dans une collection firebase comme suit :
+
+![image](https://user-images.githubusercontent.com/81646153/165202176-3b121368-2c87-4fe4-b516-9c9cc4777fe3.png)
+
 # Technologies utilisées :
 ## 	Angular :
 
