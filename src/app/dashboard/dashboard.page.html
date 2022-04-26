@@ -1,0 +1,26 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title> Tech Formations </ion-title>
+      <ion-button type="submit" (click)="authService.SignOut()" slot="end"color="secondary">
+        Logout
+      </ion-button>
+    </ion-toolbar>
+    
+  </ion-header>
+  <ion-content class="auth-form">
+    <ion-grid>
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>List of Formations:</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-list>
+            <ion-item *ngFor="let f of formations" >
+              <ion-label> {{ f.name }} </ion-label>
+              <ion-button (click)="onSelect(f)" fill="solid">More</ion-button>
+            </ion-item>
+          </ion-list>
+        </ion-card-content>
+      </ion-card>
+    </ion-grid>
+  </ion-content>
