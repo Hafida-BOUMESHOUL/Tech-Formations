@@ -26,6 +26,10 @@ C’est une application mobile sous nom ‘Tech Formations’ qui liste un nombr
 ![image](https://user-images.githubusercontent.com/81646153/165181644-75dca688-aa5c-4314-8414-f9b6c9194180.png)
 
 Cette interface permet a l’utilisateur de créer un compte pour accéder aux formations fournies par l’application, en indiquant un email valide et un mot de passe.
+On reçoit cet email lorsqu'on indique un email valide:
+
+![image](https://user-images.githubusercontent.com/81646153/165202810-37212163-dee1-4222-bc78-2a68581bdfad.png)
+
 Si l’utilisateur n’indique pas un email valide, l’alerte suivante est affichée :
 
 ![image](https://user-images.githubusercontent.com/81646153/165181671-ecce4812-6eec-4737-8e3c-ec009c81cd82.png)
