@@ -6,7 +6,8 @@
 	-Dashboard
 	-Details
 	-Summary
-+ Technologies utilisées
++ Architechture de l'application 
++ Technologies utilisées : 
 	-Angular
 	-Ionic
 +Gestion de Base de données : 
@@ -84,6 +85,17 @@ Firebase est un ensemble de services d'hébergement pour n'importe quel type d'a
 	Les informations sur les formations choisies oar un user sont enregistrées dans une collection firebase comme suit :
 
 ![image](https://user-images.githubusercontent.com/81646153/165202176-3b121368-2c87-4fe4-b516-9c9cc4777fe3.png)
+
+# Architechture de l'application 
+
+![image](https://user-images.githubusercontent.com/81646153/165204063-8959f171-8ad0-4f51-a856-f85d38cabab1.png)
+
+Chaque component represente une interface de l'application
+
+![image](https://user-images.githubusercontent.com/81646153/165204179-bed5f5cb-9cc1-405b-a667-de47d32fdce6.png)
+
+Le dossier 'shared' contient les services en relation avec la gestion de la base de donnees des formations et des users.
+Le dossier 'environments' contient les fichiers en relation avec la connexion a la base de donnees. 
 
 # Technologies utilisées :
 ## 	Angular :
